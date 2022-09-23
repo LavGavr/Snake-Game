@@ -1,0 +1,27 @@
+
+canvas {
+display: block;
+margin: 0 auto;
+}
+
+.button-section {
+display: flex;
+justify-content: center;
+}
+
+.btn {
+background: rgb(43, 240, 43);
+border: none;
+padding: 10px;
+margin: 10px;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+transition: 0.3s;
+text-transform: uppercase;
+}
+
+.btn:hover {
+transform: scale(1.04);
+cursor: pointer;
+box-shadow: 2px 2px 2px #db65658f;
+}
